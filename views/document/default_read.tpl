@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 
-    <title>{{.Title}} - Powered by MinDoc</title>
+    <title>{{.Title}} - 专业的路线图共享平台!</title>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

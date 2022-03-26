@@ -1,5 +1,6 @@
 <div class="footer">
     <div class="container">
+    <!--
         <div class="row text-center border-top">
             <span><a href="https://www.iminho.me" target="_blank">{{i18n .Lang "common.official_website"}}</a></span>
             <span>&nbsp;·&nbsp;</span>
@@ -14,5 +15,9 @@
             <a href="https://beian.miit.gov.cn/" target="_blank">{{.site_beian}}</a>
         </div>
         {{end}}
+        -->
+        <div class="row text-center">
+                    <a href="#" target="_blank">唯独网络科技有限公司 @ 2022</a>
+        </div>
     </div>
 </div>

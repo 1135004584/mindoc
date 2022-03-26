@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <title>{{.SITE_NAME}} - Powered by MinDoc</title>
+    <title>{{.SITE_NAME}} - 专业的路线图共享平台!</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">

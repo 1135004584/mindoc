@@ -158,7 +158,7 @@ func (c *DocumentController) Read() {
 		}
 		data.DocTitle = doc.DocumentName
 		data.Body = doc.Release
-		data.Title = doc.DocumentName + " - Powered by MinDoc"
+		data.Title = doc.DocumentName + " - 专业的路线图共享平台!"
 		data.Version = doc.Version
 		data.ViewCount = doc.ViewCount
 

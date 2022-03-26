@@ -82,6 +82,9 @@ RUN apt install -y libgl-dev libnss3-dev libxcomposite-dev libxrandr-dev libxi-d
 RUN apt install -y fonts-wqy-microhei fonts-wqy-zenhei
 # 安装中文语言包
 RUN apt-get install -y locales language-pack-zh-hans language-pack-zh-hans-base
+
+RUN apt-get install -y libxdamage-dev
+
 # 设置默认编码
 RUN locale-gen "zh_CN.UTF-8"
 RUN update-locale LANG=zh_CN.UTF-8
@@ -93,10 +96,11 @@ ENV LC_ALL=zh_CN.UTF-8
 RUN mkdir -p /tmp/calibre-cache
 # 获取最新版本号
 RUN curl -s http://code.calibre-ebook.com/latest>/tmp/calibre-cache/version
+#RUN echo 5.36.0 >> /tmp/calibre-cache/version
 # 下载最新版本
-# RUN wget -O /tmp/calibre-cache/calibre-x86_64.txz -c https://download.calibre-ebook.com/`cat /tmp/calibre-cache/version`/calibre-`cat /tmp/calibre-cache/version`-x86_64.txz
+ RUN wget -O /tmp/calibre-cache/calibre-x86_64.txz -c https://download.calibre-ebook.com/`cat /tmp/calibre-cache/version`/calibre-`cat /tmp/calibre-cache/version`-x86_64.txz
 # 使用 download.fastgit.org 替换 github 实现加速
-RUN wget -O /tmp/calibre-cache/calibre-x86_64.txz -c https://download.fastgit.org/kovidgoyal/calibre/releases/download/v`cat /tmp/calibre-cache/version`/calibre-`cat /tmp/calibre-cache/version`-x86_64.txz
+#RUN wget -O /tmp/calibre-cache/calibre-x86_64.txz -c https://download.fastgit.org/kovidgoyal/calibre/releases/download/v`cat /tmp/calibre-cache/version`/calibre-`cat /tmp/calibre-cache/version`-x86_64.txz
 # 注: 调试阶段，下载alibre-5.22.1-x86_64.txz到本地(使用 python -m http.server)，加速构建
 # RUN wget -O /tmp/calibre-cache/calibre-x86_64.txz -c http://10.96.8.252:8000/calibre-5.22.1-x86_64.txz
 # 解压
