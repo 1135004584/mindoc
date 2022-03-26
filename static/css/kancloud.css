@@ -168,7 +168,7 @@ table>tbody>tr:hover{
     width: 30px;
     height: 30px;
     cursor: pointer;
-    background-color: #5cb85c;
+    background-color: #10af88;
     border-radius: 50%;
     color: #fff;
     position: relative;
@@ -179,7 +179,7 @@ table>tbody>tr:hover{
     font-weight: 400;
 }
 .manual-fullscreen-switch .open:hover,.manual-fullscreen-switch .close:hover {
-    background-color: #449d44;
+    background-color: #10af88;
 }
 
 .manual-fullscreen-switch .open:before,.manual-fullscreen-switch .close:before {
