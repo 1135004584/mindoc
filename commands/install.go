@@ -114,7 +114,7 @@ func initialization() {
 		// create admin user
 		logs.Info("creating admin user")
 		member.Account = "admin"
-		member.Avatar = conf.URLForWithCdnImage("/static/images/headimgurl.jpg")
+		member.Avatar = conf.URLForWithCdnImage("/static/images/headimgurl.gif")
 		member.Password = "123456"
 		member.AuthMethod = "local"
 		member.Role = conf.MemberSuperRole

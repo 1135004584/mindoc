@@ -107,7 +107,7 @@
                     <span data-mode="search" class="navg-item"><i class="fa fa-search"></i><b class="text">{{i18n .Lang "doc.search"}}</b></span>
                     <span id="handlerMenuShow" style="float: right;display: inline-block;padding: 5px;cursor: pointer;">
                         <i class="fa fa-angle-left" style="font-size: 20px;padding-right: 5px;"></i>
-                        <span class="pull-right" style="padding-top: 4px;">{{i18n .Lang "doc.expand"}}</span>
+                        <span class="pull-right" style="padding-top: 3px;font-family: '微软雅黑',serif;font-weight: 330;font-size: 13px;">{{i18n .Lang "doc.expand"}}</span>
                     </span>
                 </div>
                 <div class="tab-util">

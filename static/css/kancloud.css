@@ -237,7 +237,10 @@ table>tbody>tr:hover{
 }
 
 .m-manual .manual-tab .tab-navg .navg-item .text {
-    font-weight: 200
+    font-weight: 330;
+    font-family: "微软雅黑", serif;
+    font-size: 14px;
+    color: #262626;
 }
 
 .m-manual .manual-tab .tab-navg .navg-item.active,.m-manual .manual-tab .tab-navg .navg-item.active:hover,.m-manual .manual-tab .tab-navg .navg-item:hover {
@@ -424,7 +427,9 @@ table>tbody>tr:hover{
     padding: 10px 20px
 }
 .manual-reader .book-title{
-    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+    color: #262626;
 }
 .manual-reader .book-title:hover{
     text-decoration: none;

@@ -17,7 +17,7 @@
 
 </head>
 <body>
-<div class="manual-reader manual-container">
+<div class="manual-reader manual-container" style="overflow-x:hidden">
     {{template "widgets/header.tpl" .}}
     <div class="container manual-body">
         <div class="row">

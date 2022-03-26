@@ -57,18 +57,19 @@ textarea{
     background-color: #fff;
     border-bottom: 0;
     box-shadow: rgba(0,0,0,.1)0 1px 5px;
-    border-top: 1px solid #009a61;
+    /*border-top: 1px solid #009a61;*/
 }
 .manual-header  .navbar-brand,.manual-header a {
     font-weight: 500;
-    color: #563d7c;
+    /*color: #563d7c;*/
     max-width: 300px;
     white-space:nowrap;
     overflow: hidden;
 }
 .manual-header .navbar-nav li.active a{
-    background-color: #009a61;
-    color: #ffffff;
+    /*background-color: #009a61;*/
+    color: #262626;
+    font-weight: 700;
 }
 .manual-reader .slidebar {
     margin: 5px 10px 0 0;
@@ -158,84 +159,84 @@ textarea{
     margin-top: 53px;
 }
 .manual-body .page-left{
-    position: fixed;
-    overflow: auto;
-    top: 50px;
-    bottom: 0;
-    z-index: 100;
-    width: 199px;
-    background-color: #f5f5f5;
-    border-right: 1px solid #eaeaea
+position: fixed;
+overflow: auto;
+top: 50px;
+bottom: 0;
+z-index: 100;
+width: 199px;
+background-color: #f5f5f5;
+border-right: 1px solid #eaeaea
 }
 
 .manual-body .page-left .menu {
-    padding: 18px 0
+padding: 18px 0
 }
 .manual-body .page-left .menu li {
-    height: 36px;
-    line-height: 0
+height: 36px;
+line-height: 0
 }
 .manual-body .page-left .menu .item {
-    display: block;
-    padding: 8px 24px;
-    color: #666;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    line-height: 20px;
-    text-decoration: none;
+display: block;
+padding: 8px 24px;
+color: #666;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+line-height: 20px;
+text-decoration: none;
 }
 .manual-body .page-left .menu .item:hover {
-    background-color: #eee;
-    text-decoration: none;
+background-color: #eee;
+text-decoration: none;
 }
 .manual-body .page-left .menu a:visited{
-    text-decoration: none;
+text-decoration: none;
 }
 .manual-body .page-left .menu li.active .item{
-    background-color: #DDB;
+background-color: #DDB;
 }
 .manual-body .page-right {
-    padding: 15px 0 15px 24px;
-    margin-left: 200px;
-    min-width: 400px;
+padding: 15px 0 15px 24px;
+margin-left: 200px;
+min-width: 400px;
 }
 
 .manual-body .page-right .box-head{
-    border-bottom: 1px solid #DDDDD9;
+border-bottom: 1px solid #DDDDD9;
 }
 .m-box .box-head .box-title {
-    display: inline-block;
-    height: 36px;
-    line-height: 36px;
-    padding-bottom: 3px;
-    border-bottom: 2px solid #44B035;
-    margin-bottom: -1px;
-    min-width: 80px;
-    font-weight: 200;
-    font-size: 18px;
+display: inline-block;
+height: 36px;
+line-height: 36px;
+padding-bottom: 3px;
+border-bottom: 2px solid #44B035;
+margin-bottom: -1px;
+min-width: 80px;
+font-weight: 200;
+font-size: 18px;
 }
 .manual-body .page-right .box-body {
-    padding: 12px 0;
-    position: relative;
+padding: 12px 0;
+position: relative;
 }
 
 .manual-body .page-right .box-body label, .text-label{
-    font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #222222;
-    font-weight: 300;
+font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+color: #222222;
+font-weight: 300;
 }
 .required>.text-label:after{
-    color: #db2828;
-    content: "*";
-    vertical-align: middle;
-    margin: -.2em 0 0 .2em;
+color: #db2828;
+content: "*";
+vertical-align: middle;
+margin: -.2em 0 0 .2em;
 }
 .manual-body .page-right .box-body .form-right{
-    position: absolute;
-    right: 0;
-    top: 34px
+position: absolute;
+right: 0;
+top: 34px
 }
 /*************网站首页******************/
 .manual-list{
@@ -1014,11 +1015,13 @@ textarea{
 }
 
 .footer a{
-    color: #222;
+    color: #8c8c8c;
     text-decoration: none;
+    font-family: "微软雅黑";
+    font-size: 15px;
 }
 .footer a:hover {
-    color: #2b85ae
+    color: #595959
 }
 @media screen and (max-width: 840px) {
     .manual-body .page-left{
